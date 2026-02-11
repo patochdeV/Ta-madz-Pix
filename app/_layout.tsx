@@ -7,6 +7,7 @@ import { KeyboardProvider } from "react-native-keyboard-controller";
 import { ErrorBoundary } from "@/components/ErrorBoundary";
 import { queryClient } from "@/lib/query-client";
 import { FavoritesProvider } from "@/context/FavoritesContext";
+import { CharactersProvider } from "@/context/CharactersContext";
 import {
   useFonts,
   Nunito_400Regular,
@@ -31,6 +32,14 @@ function RootLayoutNav() {
       />
       <Stack.Screen
         name="favorites"
+        options={{ animation: "slide_from_right" }}
+      />
+      <Stack.Screen
+        name="characters"
+        options={{ animation: "slide_from_right" }}
+      />
+      <Stack.Screen
+        name="characters/[id]"
         options={{ animation: "slide_from_right" }}
       />
       <Stack.Screen
@@ -63,7 +72,9 @@ export default function RootLayout() {
         <GestureHandlerRootView>
           <KeyboardProvider>
             <FavoritesProvider>
-              <RootLayoutNav />
+              <CharactersProvider>
+                <RootLayoutNav />
+              </CharactersProvider>
             </FavoritesProvider>
           </KeyboardProvider>
         </GestureHandlerRootView>

@@ -1,0 +1,2423 @@
+{
+  "metadata": {
+    "title": "Tamagotchi Pix - Complete Character Database",
+    "version": "1.0",
+    "lastUpdated": "2026-02-11",
+    "sources": [
+      "https://tamagotchi.fandom.com/wiki/Tamagotchi_Pix/Character_list",
+      "https://pixfavourites.tiddlyhost.com/"
+    ],
+    "totalCharacters": 25,
+    "description": "Données complètes sur les personnages majeurs de Tamagotchi Pix avec informations d'évolution, préférences, traits de personnalité et rareté"
+  },
+  "characters": [
+    {
+      "id": 1,
+      "name": "Mametchi",
+      "aliases": [
+        "Mame-Chan"
+      ],
+      "description": "Un personnage intelligent et étudiant passionné qui aime apprendre. C'est l'un des personnages les plus populaires et les plus mignons.",
+      "personality": [
+        "Intelligent",
+        "Étudiant appliqué",
+        "Curieux",
+        "Aimable",
+        "Doux"
+      ],
+      "preferences": {
+        "favoriteFood": "Ramen",
+        "likesFood": [
+          "Rice",
+          "Noodles",
+          "Bread"
+        ],
+        "favoriteItem": "Books",
+        "likesItems": [
+          "Pencil",
+          "School Uniform",
+          "Glasses"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby"
+        ],
+        "evolvesTo": [
+          "Maskulutchi"
+        ],
+        "rarity": "Common"
+      },
+      "lifespan": {
+        "ageRange": "Young Adult",
+        "cycleStage": 3
+      },
+      "firstAppearance": "Original Tamagotchi (1996)",
+      "pixIntroduction": true,
+      "popularity": 95,
+      "traits": [
+        "Hard-working",
+        "Responsible",
+        "Friendly",
+        "Optimistic"
+      ],
+      "specialAbilities": [
+        "Learn quickly",
+        "Solve problems"
+      ],
+      "imageUrl": "mametchi.png"
+    },
+    {
+      "id": 2,
+      "name": "Kuchipatchi",
+      "aliases": [
+        "Kuchi",
+        "Kuchi-Chan"
+      ],
+      "description": "Un personnage drôle et bavard qui adore manger et s'amuser. Connu pour son amour de la nourriture et son attitude insouciante.",
+      "personality": [
+        "Gourmand",
+        "Bavard",
+        "Drôle",
+        "Sociable",
+        "Insouciant"
+      ],
+      "preferences": {
+        "favoriteFood": "Spaghetti",
+        "likesFood": [
+          "Burger",
+          "Pizza",
+          "Candy",
+          "Donut"
+        ],
+        "favoriteItem": "TV",
+        "likesItems": [
+          "Remote Control",
+          "Snacks",
+          "Comedy Show Ticket"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby"
+        ],
+        "evolvesTo": [
+          "Masktchi",
+          "Karakuri-Patchi"
+        ],
+        "rarity": "Common"
+      },
+      "lifespan": {
+        "ageRange": "Adult",
+        "cycleStage": 4
+      },
+      "firstAppearance": "Original Tamagotchi",
+      "pixIntroduction": true,
+      "popularity": 85,
+      "traits": [
+        "Comic",
+        "Messy",
+        "Cheerful",
+        "Food-loving"
+      ],
+      "baseStats": {
+        "hunger": "High",
+        "happiness": "Variable"
+      },
+      "imageUrl": "kuchipatchi.png"
+    },
+    {
+      "id": 3,
+      "name": "Tamagotchi",
+      "aliases": [
+        "Tamagotchi Classic",
+        "Standard Tama"
+      ],
+      "description": "Le personnage fondateur et l'éponyme original. Représente la forme générique basique d'un Tamagotchi.",
+      "personality": [
+        "Neutre",
+        "Équilibré",
+        "Adaptable",
+        "Innocent"
+      ],
+      "preferences": {
+        "favoriteFood": "Rice Ball",
+        "likesFood": [
+          "Generic Food"
+        ],
+        "favoriteItem": "Generic Item",
+        "likesItems": [
+          "Toys"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby"
+        ],
+        "evolvesTo": [
+          "Multiple possibilities"
+        ],
+        "rarity": "Common"
+      },
+      "lifespan": {
+        "ageRange": "Young",
+        "cycleStage": 2
+      },
+      "firstAppearance": "Original Tamagotchi (1996)",
+      "pixIntroduction": true,
+      "popularity": 100,
+      "traits": [
+        "Basic",
+        "Iconic",
+        "Innocent",
+        "Universal"
+      ],
+      "imageUrl": "tamagotchi.png"
+    },
+    {
+      "id": 4,
+      "name": "Violetchi",
+      "aliases": [
+        "Violet Girl",
+        "Violet-Chan"
+      ],
+      "description": "Un personnage féminin élégant qui aime la musique, le chant et les arts. Elle est gracieuse et talentueuse artistiquement.",
+      "personality": [
+        "Artiste",
+        "Élégante",
+        "Créative",
+        "Sensible",
+        "Musicale"
+      ],
+      "preferences": {
+        "favoriteFood": "Cake",
+        "likesFood": [
+          "Fruit",
+          "Pastry",
+          "Chocolate"
+        ],
+        "favoriteItem": "Microphone",
+        "likesItems": [
+          "Musical Note",
+          "Flower",
+          "Mirror",
+          "Stage Light"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby (Female)"
+        ],
+        "evolvesTo": [
+          "Perfectionitchi",
+          "Advanced forms"
+        ],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Young Adult",
+        "cycleStage": 3
+      },
+      "firstAppearance": "Tamagotchi Nano",
+      "pixIntroduction": true,
+      "popularity": 80,
+      "traits": [
+        "Talented",
+        "Aesthetic",
+        "Empathetic",
+        "Creative"
+      ],
+      "specialAbilities": [
+        "Sing beautifully",
+        "Perform on stage"
+      ],
+      "baseStats": {
+        "talent": "Very High",
+        "happiness": "High"
+      },
+      "imageUrl": "violetchi.png"
+    },
+    {
+      "id": 5,
+      "name": "Gourmetchi",
+      "aliases": [
+        "Gourmet Chef"
+      ],
+      "description": "Un chef cuisinier passionné qui crée des plats délicieux. Il a un palais raffiné et adore cuisiner pour les autres.",
+      "personality": [
+        "Chef de cuisine",
+        "Raffiné",
+        "Perfectionniste",
+        "Généreux",
+        "Passionné"
+      ],
+      "preferences": {
+        "favoriteFood": "Sushi",
+        "likesFood": [
+          "High-quality ingredients",
+          "Exotic foods",
+          "French cuisine"
+        ],
+        "favoriteItem": "Cooking utensils",
+        "likesItems": [
+          "Chef Hat",
+          "Recipe Book",
+          "Kitchen Items"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby"
+        ],
+        "evolvesTo": [
+          "Ultimate Chef forms"
+        ],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Adult Professional",
+        "cycleStage": 4
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 75,
+      "traits": [
+        "Culinary Expert",
+        "Perfectionist",
+        "Generous",
+        "Sophisticated"
+      ],
+      "specialAbilities": [
+        "Cook amazing meals",
+        "Train others"
+      ],
+      "baseStats": {
+        "cooking": "Maximum",
+        "happiness": "High"
+      },
+      "imageUrl": "gourmetchi.png"
+    },
+    {
+      "id": 6,
+      "name": "Cheeritchi",
+      "aliases": [
+        "Cheerleader"
+      ],
+      "description": "Un personnage énergique et enthousiaste qui adore les sports et l'exercice. Elle est populaire et motivante.",
+      "personality": [
+        "Énergique",
+        "Sportive",
+        "Enthousiaste",
+        "Positive",
+        "Populaire"
+      ],
+      "preferences": {
+        "favoriteFood": "Nutritious meal",
+        "likesFood": [
+          "Fruit",
+          "Health food",
+          "Protein"
+        ],
+        "favoriteItem": "Pom-poms",
+        "likesItems": [
+          "Sports Equipment",
+          "Whistle",
+          "Training Gear"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby (Female)"
+        ],
+        "evolvesTo": [
+          "Champion forms"
+        ],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Young Adult",
+        "cycleStage": 3
+      },
+      "firstAppearance": "Tamagotchi m!",
+      "pixIntroduction": true,
+      "popularity": 72,
+      "traits": [
+        "Athlete",
+        "Motivator",
+        "Energetic",
+        "Social"
+      ],
+      "baseStats": {
+        "energy": "Maximum",
+        "happiness": "High",
+        "strength": "High"
+      },
+      "imageUrl": "cheeritchi.png"
+    },
+    {
+      "id": 7,
+      "name": "Gamer Tamagotchi",
+      "aliases": [
+        "Gamertchi",
+        "Game Boy"
+      ],
+      "description": "Un personnage passionné de jeux vidéo qui vit dans un monde numérique. Il est obsédé par les pixels et les niveaux.",
+      "personality": [
+        "Gamer",
+        "Technophile",
+        "Compétiteur",
+        "Fou de pixels",
+        "Immersé"
+      ],
+      "preferences": {
+        "favoriteFood": "Energy drink + snacks",
+        "likesFood": [
+          "Chips",
+          "Instant food",
+          "Candy"
+        ],
+        "favoriteItem": "Game controller",
+        "likesItems": [
+          "Console",
+          "Arcade machine",
+          "Headphones",
+          "Game cartridge"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby (with high play stats)"
+        ],
+        "evolvesTo": [
+          "Pro gamer forms"
+        ],
+        "rarity": "Special"
+      },
+      "lifespan": {
+        "ageRange": "Teenager/Young Adult",
+        "cycleStage": "2-3"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 78,
+      "traits": [
+        "Digital-savvy",
+        "Competitive",
+        "Obsessive",
+        "Creative",
+        "Immersed in virtual worlds"
+      ],
+      "baseStats": {
+        "gameplay": "Maximum",
+        "reaction_time": "High"
+      },
+      "imageUrl": "gamer_tamagotchi.png"
+    },
+    {
+      "id": 8,
+      "name": "Fashiontchi",
+      "aliases": [
+        "Fashion Designer",
+        "Style Queen"
+      ],
+      "description": "Un créateur de mode et fashionista qui vit pour l'élégance et le style. Elle définit les tendances de la saison.",
+      "personality": [
+        "Fashionista",
+        "Créative",
+        "Tendancieuse",
+        "Stylée",
+        "Perfectionniste"
+      ],
+      "preferences": {
+        "favoriteFood": "Light elegant meals",
+        "likesFood": [
+          "Fruit",
+          "Vegetables",
+          "Gourmet treats"
+        ],
+        "favoriteItem": "Fashion magazine",
+        "likesItems": [
+          "Clothing",
+          "Accessories",
+          "Sunglasses",
+          "Designer bag"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby (Female)"
+        ],
+        "evolvesTo": [
+          "Style expert forms"
+        ],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Young Adult",
+        "cycleStage": 3
+      },
+      "firstAppearance": "Tamagotchi Nano",
+      "pixIntroduction": true,
+      "popularity": 76,
+      "traits": [
+        "Trendsetter",
+        "Creative",
+        "Aesthetic",
+        "Social",
+        "Confident"
+      ],
+      "specialAbilities": [
+        "Design clothes",
+        "Create trends"
+      ],
+      "baseStats": {
+        "style": "Maximum",
+        "creativity": "Very High"
+      },
+      "imageUrl": "fashiontchi.png"
+    },
+    {
+      "id": 9,
+      "name": "Himespetchi",
+      "aliases": [
+        "Princess",
+        "Hime-Chan"
+      ],
+      "description": "Une personnage royale et de haut statut. Elle est sophistiquée, élégante et attendrit toutes choses luxueuses.",
+      "personality": [
+        "Royale",
+        "Sophistiquée",
+        "Délicate",
+        "Exigeante",
+        "Élégante"
+      ],
+      "preferences": {
+        "favoriteFood": "Delicacy",
+        "likesFood": [
+          "Fine dining",
+          "Caviar",
+          "Exotic delicacies"
+        ],
+        "favoriteItem": "Crown",
+        "likesItems": [
+          "Jewels",
+          "Royal items",
+          "Tiara",
+          "Palace furniture"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby (Female, perfect care)"
+        ],
+        "evolvesTo": [
+          "Empress forms"
+        ],
+        "rarity": "Rare"
+      },
+      "lifespan": {
+        "ageRange": "Adult Royalty",
+        "cycleStage": 4
+      },
+      "firstAppearance": "Tamagotchi Angel",
+      "pixIntroduction": true,
+      "popularity": 68,
+      "traits": [
+        "Royalty",
+        "Sophisticated",
+        "Refined",
+        "Demanding",
+        "Elegant"
+      ],
+      "baseStats": {
+        "beauty": "Maximum",
+        "elegance": "Maximum",
+        "happiness": "High (with luxury)"
+      },
+      "imageUrl": "himespetchi.png"
+    },
+    {
+      "id": 10,
+      "name": "Cybertchi",
+      "aliases": [
+        "Robot",
+        "Cyber-Tama"
+      ],
+      "description": "Un personnage futuriste ressemblant à un robot avec une technologie avancée. Il fonctionne avec de la logique et de la programmation.",
+      "personality": [
+        "Cybernétique",
+        "Logique",
+        "Technologique",
+        "Efficace",
+        "Futuriste"
+      ],
+      "preferences": {
+        "favoriteFood": "Battery/Energy",
+        "likesFood": [
+          "Electronic components",
+          "Data nutrients"
+        ],
+        "favoriteItem": "Computer",
+        "likesItems": [
+          "Circuits",
+          "Lasers",
+          "Tech gadgets",
+          "Maintenance tools"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Special compatibility"
+        ],
+        "evolvesTo": [
+          "Superintelligence forms"
+        ],
+        "rarity": "Very Rare"
+      },
+      "lifespan": {
+        "ageRange": "Eternal/Mechanical",
+        "cycleStage": "N/A"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 73,
+      "traits": [
+        "Artificial Intelligence",
+        "Logical",
+        "Efficient",
+        "Advanced",
+        "Futuristic"
+      ],
+      "specialAbilities": [
+        "Process data instantly",
+        "Interface with technology"
+      ],
+      "baseStats": {
+        "logic": "Maximum",
+        "processing": "Maximum"
+      },
+      "imageUrl": "cybertchi.png"
+    },
+    {
+      "id": 11,
+      "name": "Witchtchi",
+      "aliases": [
+        "Witch",
+        "Magic User"
+      ],
+      "description": "Un personnage magique et mystérieux qui pratique la sorcellerie. Elle possède des pouvoirs magiques spéciaux et un air énigmatique.",
+      "personality": [
+        "Mystique",
+        "Magicienne",
+        "Énigmatique",
+        "Puissante",
+        "Solitaire"
+      ],
+      "preferences": {
+        "favoriteFood": "Magic potion",
+        "likesFood": [
+          "Herbs",
+          "Mushrooms",
+          "Rare ingredients"
+        ],
+        "favoriteItem": "Magic wand",
+        "likesItems": [
+          "Spellbook",
+          "Cauldron",
+          "Crystal ball",
+          "Moonstone"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby (with special items)"
+        ],
+        "evolvesTo": [
+          "Powerful witch forms"
+        ],
+        "rarity": "Rare"
+      },
+      "lifespan": {
+        "ageRange": "Young Adult/Ageless",
+        "cycleStage": "3-4"
+      },
+      "firstAppearance": "Tamagotchi Nano",
+      "pixIntroduction": true,
+      "popularity": 70,
+      "traits": [
+        "Magical",
+        "Mysterious",
+        "Powerful",
+        "Enigmatic",
+        "Supernatural"
+      ],
+      "specialAbilities": [
+        "Cast spells",
+        "Control elements",
+        "Predict future"
+      ],
+      "baseStats": {
+        "magic": "Maximum",
+        "mystery": "High"
+      },
+      "imageUrl": "witchtchi.png"
+    },
+    {
+      "id": 12,
+      "name": "Angelchi",
+      "aliases": [
+        "Angel",
+        "Heavenly Being"
+      ],
+      "description": "Un personnage angélique bienveillant avec des ailes. Elle apporte de la chance, de la guérison et distribue l'amour à ceux qui la rencontrent.",
+      "personality": [
+        "Angélique",
+        "Bienveillante",
+        "Guérisseuse",
+        "Douce",
+        "Bénédictrice"
+      ],
+      "preferences": {
+        "favoriteFood": "Blessed meal",
+        "likesFood": [
+          "Pure foods",
+          "Light meals",
+          "Honey"
+        ],
+        "favoriteItem": "Harp",
+        "likesItems": [
+          "Wings",
+          "Halo",
+          "Holy symbols",
+          "Clouds"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby (positive care)"
+        ],
+        "evolvesTo": [
+          "Supreme angel forms"
+        ],
+        "rarity": "Very Rare"
+      },
+      "lifespan": {
+        "ageRange": "Eternal",
+        "cycleStage": "N/A"
+      },
+      "firstAppearance": "Tamagotchi Angel",
+      "pixIntroduction": true,
+      "popularity": 82,
+      "traits": [
+        "Heavenly",
+        "Benevolent",
+        "Healing",
+        "Blessed",
+        "Eternal"
+      ],
+      "specialAbilities": [
+        "Heal wounds",
+        "Bestow blessings",
+        "Bring luck"
+      ],
+      "baseStats": {
+        "holiness": "Maximum",
+        "kindness": "Maximum"
+      },
+      "imageUrl": "angelchi.png"
+    },
+    {
+      "id": 13,
+      "name": "Demonchi",
+      "aliases": [
+        "Devil",
+        "Demon"
+      ],
+      "description": "Un personnage contre nature qui aime causer du chaos et de la mischief. Il possède un coté sombre mais parfois adorable.",
+      "personality": [
+        "Démon",
+        "Malveillant",
+        "Chaotique",
+        "Espiègle",
+        "Sombre"
+      ],
+      "preferences": {
+        "favoriteFood": "Spicy hot food",
+        "likesFood": [
+          "Flame items",
+          "Intense flavors",
+          "Dark delicacies"
+        ],
+        "favoriteItem": "Trident",
+        "likesItems": [
+          "Flames",
+          "Skull",
+          "Evil artifacts",
+          "Darkness"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby (negative care)"
+        ],
+        "evolvesTo": [
+          "Supreme demon forms"
+        ],
+        "rarity": "Very Rare"
+      },
+      "lifespan": {
+        "ageRange": "Eternal",
+        "cycleStage": "N/A"
+      },
+      "firstAppearance": "Tamagotchi Nano",
+      "pixIntroduction": true,
+      "popularity": 65,
+      "traits": [
+        "Otherworldly",
+        "Chaotic",
+        "Mischievous",
+        "Powerful",
+        "Dark"
+      ],
+      "specialAbilities": [
+        "Cause chaos",
+        "Dark magic",
+        "Tempt innocents"
+      ],
+      "baseStats": {
+        "chaos": "Maximum",
+        "darkness": "Maximum"
+      },
+      "imageUrl": "demonchi.png"
+    },
+    {
+      "id": 14,
+      "name": "Koffitchi",
+      "aliases": [
+        "Coffee Lover",
+        "Caffeine Enthusiast"
+      ],
+      "description": "Un personnage obsédé par le café qui fonctionne à la caféine. Il est énergique mais peut être irritable sans sa dose.",
+      "personality": [
+        "Caffiné",
+        "Énergique",
+        "Irritable",
+        "Gourmet",
+        "Dépendant"
+      ],
+      "preferences": {
+        "favoriteFood": "Coffee",
+        "likesFood": [
+          "Coffee beans",
+          "Pastry",
+          "Bread"
+        ],
+        "favoriteItem": "Coffee cup",
+        "likesItems": [
+          "Coffee machine",
+          "Newspaper",
+          "Caffeine pills"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby"
+        ],
+        "evolvesTo": [
+          "Coffee master forms"
+        ],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Adult",
+        "cycleStage": 4
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 67,
+      "traits": [
+        "Caffeinated",
+        "Energetic",
+        "Moody",
+        "Connoisseur",
+        "Addicted to caffeine"
+      ],
+      "baseStats": {
+        "energy": "Variable based on coffee intake",
+        "happiness": "High with coffee"
+      },
+      "imageUrl": "koffitchi.png"
+    },
+    {
+      "id": 15,
+      "name": "Lovelin",
+      "aliases": [
+        "Love Angel",
+        "Romantic"
+      ],
+      "description": "Un personnage adorable qui aime l'amour et les relations. Elle adore créer des moments romantiques et apporter de la joie.",
+      "personality": [
+        "Romantique",
+        "Aimante",
+        "Douce",
+        "Optimiste",
+        "Rêveuse"
+      ],
+      "preferences": {
+        "favoriteFood": "Love lunch box",
+        "likesFood": [
+          "Heart-shaped foods",
+          "Sweets",
+          "Desserts"
+        ],
+        "favoriteItem": "Heart",
+        "likesItems": [
+          "Flowers",
+          "Chocolates",
+          "Love letters",
+          "Ring"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby (Female, love route)"
+        ],
+        "evolvesTo": [
+          "Romance specialist forms"
+        ],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Young Adult",
+        "cycleStage": 3
+      },
+      "firstAppearance": "Tamagotchi Nano",
+      "pixIntroduction": true,
+      "popularity": 79,
+      "traits": [
+        "Romantic",
+        "Loving",
+        "Optimistic",
+        "Dreamer",
+        "Empathetic"
+      ],
+      "specialAbilities": [
+        "Create romance",
+        "Spread love",
+        "Match-make"
+      ],
+      "baseStats": {
+        "romance": "Maximum",
+        "happiness": "High"
+      },
+      "imageUrl": "lovelin.png"
+    },
+    {
+      "id": 16,
+      "name": "Chamametchi",
+      "aliases": [
+        "Flower Child",
+        "Nature Spirit"
+      ],
+      "description": "Un personnage innocent et mignon qui adore les fleurs et la nature. Elle a un tempérament doux et enfantin.",
+      "personality": [
+        "Innocente",
+        "Enfantins",
+        "Aimante de la nature",
+        "Douce",
+        "Joyeuse"
+      ],
+      "preferences": {
+        "favoriteFood": "Flower",
+        "likesFood": [
+          "Sweet foods",
+          "Fruit",
+          "Honey"
+        ],
+        "favoriteItem": "Flower",
+        "likesItems": [
+          "Butterfly net",
+          "Garden tools",
+          "Rainbow"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby (Female)"
+        ],
+        "evolvesTo": [
+          "Gardening specialist forms"
+        ],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Child/Young Teen",
+        "cycleStage": 2
+      },
+      "firstAppearance": "Tamagotchi Nano",
+      "pixIntroduction": true,
+      "popularity": 71,
+      "traits": [
+        "Innocent",
+        "Cute",
+        "Nature-loving",
+        "Cheerful",
+        "Child-like"
+      ],
+      "baseStats": {
+        "cuteness": "Maximum",
+        "innocence": "High"
+      },
+      "imageUrl": "chamametchi.png"
+    },
+    {
+      "id": 17,
+      "name": "Oniontchi",
+      "aliases": [
+        "Onion Boy"
+      ],
+      "description": "Un personnage basé sur un oignon qui sent fort! Malgré son odeur, il a bon cœur et est sympathique.",
+      "personality": [
+        "Caractéristique unique",
+        "Sympathique",
+        "Amusant",
+        "Sincère",
+        "Autodérision"
+      ],
+      "preferences": {
+        "favoriteFood": "Onion",
+        "likesFood": [
+          "Vegetables",
+          "Spicy foods",
+          "Pickled items"
+        ],
+        "favoriteItem": "Onion bulb",
+        "likesItems": [
+          "Gardening items",
+          "Cooking utensils"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby"
+        ],
+        "evolvesTo": [
+          "Vegetable forms"
+        ],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Adult",
+        "cycleStage": 4
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 55,
+      "traits": [
+        "Unique",
+        "Kind-hearted",
+        "Funny",
+        "Self-deprecating",
+        "Sincere"
+      ],
+      "baseStats": {
+        "uniqueness": "Maximum",
+        "humor": "High"
+      },
+      "imageUrl": "oniontchi.png"
+    },
+    {
+      "id": 18,
+      "name": "Komainu",
+      "aliases": [
+        "Guardian Lion",
+        "Protective Spirit"
+      ],
+      "description": "I am your sacred guardian, protector of temples and tradition. Je suis inspiré par la mythologie asiatique et les lion-chien mythe une.",
+      "personality": [
+        "Gardienne",
+        "Protectrice",
+        "Mystique",
+        "Majestic",
+        "Sérieuse"
+      ],
+      "preferences": {
+        "favoriteFood": "Sacred offering",
+        "likesFood": [
+          "Temple food",
+          "Rice",
+          "Fish"
+        ],
+        "favoriteItem": "Temple bell",
+        "likesItems": [
+          "Shrine items",
+          "Sacred stone",
+          "Incense"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Special encounter"
+        ],
+        "evolvesTo": [
+          "Supreme guardian forms"
+        ],
+        "rarity": "Very Rare"
+      },
+      "lifespan": {
+        "ageRange": "Eternal Guardian",
+        "cycleStage": "N/A"
+      },
+      "firstAppearance": "Tamagotchi Nano",
+      "pixIntroduction": true,
+      "popularity": 62,
+      "traits": [
+        "Guardian",
+        "Protective",
+        "Mystical",
+        "Majestic",
+        "Serious"
+      ],
+      "specialAbilities": [
+        "Protect owner",
+        "Grant blessings",
+        "Ancient wisdom"
+      ],
+      "baseStats": {
+        "protection": "Maximum",
+        "wisdom": "Very High"
+      },
+      "imageUrl": "komainu.png"
+    },
+    {
+      "id": 19,
+      "name": "Pikachu",
+      "aliases": [
+        "Electric Mouse",
+        "Pika"
+      ],
+      "description": "Le Pokémon iconique présenté dans Tamagotchi Pix via collaboration spéciale. Personnage électrique ami et courageux.",
+      "personality": [
+        "Énergique",
+        "Amical",
+        "Courageux",
+        "Playful",
+        "Loyal"
+      ],
+      "preferences": {
+        "favoriteFood": "Ketchup",
+        "likesFood": [
+          "Electricity-based items",
+          "fruits"
+        ],
+        "favoriteItem": "Thunderbolt",
+        "likesItems": [
+          "Pokéball",
+          "Electric field",
+          "Adventure gear"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Pichu"
+        ],
+        "evolvesTo": [
+          "Raichu"
+        ],
+        "rarity": "Special Event"
+      },
+      "lifespan": {
+        "ageRange": "Pokemon lifecycle",
+        "cycleStage": "Variable"
+      },
+      "firstAppearance": "Tamagotchi Pix Collaboration Event",
+      "pixIntroduction": true,
+      "popularity": 99,
+      "traits": [
+        "Electric",
+        "Friendly",
+        "Adventurous",
+        "Iconic",
+        "Loyal"
+      ],
+      "specialAbilities": [
+        "Thunderbolt",
+        "Quick Attack",
+        "Generate electricity"
+      ],
+      "baseStats": {
+        "speed": "Very High",
+        "special_attack": "High",
+        "electricity": "Maximum"
+      },
+      "imageUrl": "pikachu.png",
+      "note": "Crossover collaboration character"
+    },
+    {
+      "id": 20,
+      "name": "Ginjirotchi",
+      "aliases": [
+        "Old Man",
+        "Silver-haired Elder"
+      ],
+      "description": "Un personnage âgé et sage avec de longs cheveux gris. Il possède l'expérience et la sagesse de nombreuses années.",
+      "personality": [
+        "Sage",
+        "Expérimenté",
+        "Bienveillant",
+        "Patient",
+        "Contemplative"
+      ],
+      "preferences": {
+        "favoriteFood": "Traditional meal",
+        "likesFood": [
+          "Rice",
+          "Soup",
+          "Traditional Japanese food"
+        ],
+        "favoriteItem": "Walking cane",
+        "likesItems": [
+          "Tea set",
+          "Book",
+          "Garden"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Adult forms"
+        ],
+        "evolvesTo": [
+          "Ultimate wisdom forms"
+        ],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Elderly",
+        "cycleStage": 5
+      },
+      "firstAppearance": "Tamagotchi m!",
+      "pixIntroduction": true,
+      "popularity": 60,
+      "traits": [
+        "Wise",
+        "Experienced",
+        "Kind",
+        "Patient",
+        "Philosophical"
+      ],
+      "specialAbilities": [
+        "Share wisdom",
+        "Mentor",
+        "Predict fate"
+      ],
+      "baseStats": {
+        "wisdom": "Maximum",
+        "experience": "Very High"
+      },
+      "imageUrl": "ginjirotchi.png"
+    },
+    {
+      "id": 21,
+      "name": "Zurugitchi",
+      "aliases": [
+        "Zombie",
+        "Undead"
+      ],
+      "description": "Un personnage ressemblant à un zombie avec une apparence décalée et effrayantes à première vue, mais amical en réalité.",
+      "personality": [
+        "Zombie",
+        "Effrayant",
+        "Sympathique",
+        "Maladroit",
+        "Amusant"
+      ],
+      "preferences": {
+        "favoriteFood": "Brain food",
+        "likesFood": [
+          "Strange foods",
+          "Fermented items",
+          "Rotten things"
+        ],
+        "favoriteItem": "Brain",
+        "likesItems": [
+          "Tombstone",
+          "Graveyard items",
+          "Chains"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Special Halloween event"
+        ],
+        "evolvesTo": [
+          "Zombie evolutions"
+        ],
+        "rarity": "Very Rare"
+      },
+      "lifespan": {
+        "ageRange": "Undead",
+        "cycleStage": "N/A"
+      },
+      "firstAppearance": "Tamagotchi Nano",
+      "pixIntroduction": true,
+      "popularity": 58,
+      "traits": [
+        "Zombie",
+        "Creepy",
+        "Friendly",
+        "Clumsy",
+        "Humorous"
+      ],
+      "baseStats": {
+        "spookiness": "Maximum",
+        "friendliness": "Variable"
+      },
+      "imageUrl": "zurugitchi.png"
+    },
+    {
+      "id": 22,
+      "name": "Gudetama",
+      "aliases": [
+        "Lazy Egg",
+        "Lazy Gudetama"
+      ],
+      "description": "Un personnage paresseux basé sur un oeuf sanrio collaboré. Il déteste l'effort et préfère rester au repos.",
+      "personality": [
+        "Paresseux",
+        "Apathique",
+        "Cynique",
+        "Drôle",
+        "Indépendant"
+      ],
+      "preferences": {
+        "favoriteFood": "Hamburger",
+        "likesFood": [
+          "Easy foods",
+          "Egg-based meals",
+          "Comfort food"
+        ],
+        "favoriteItem": "Bed",
+        "likesItems": [
+          "Pillow",
+          "Blanket",
+          "Nothing (likes laziness)"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby (lazy care)"
+        ],
+        "evolvesTo": [
+          "Ultimate lazy forms"
+        ],
+        "rarity": "Special Event"
+      },
+      "lifespan": {
+        "ageRange": "Eternal Egg",
+        "cycleStage": "N/A"
+      },
+      "firstAppearance": "Tamagotchi Pix Sanrio Collaboration",
+      "pixIntroduction": true,
+      "popularity": 74,
+      "traits": [
+        "Lazy",
+        "Apathetic",
+        "Humorous",
+        "Cynical",
+        "Independent"
+      ],
+      "specialAbilities": [
+        "Perfect laziness",
+        "Comfort mode"
+      ],
+      "baseStats": {
+        "laziness": "Maximum",
+        "humor": "High"
+      },
+      "imageUrl": "gudetama.png",
+      "note": "Sanrio crossover collaboration character"
+    },
+    {
+      "id": 23,
+      "name": "Megumi",
+      "aliases": [
+        "Serenity",
+        "Calm Spirit"
+      ],
+      "description": "Un personnage serein émanant la tranquillité et la méditation. Elle incarne la paix intérieure et la spiritualité.",
+      "personality": [
+        "Serein",
+        "Calme",
+        "Spirituelle",
+        "Équilibrée",
+        "Contemplative"
+      ],
+      "preferences": {
+        "favoriteFood": "Tea",
+        "likesFood": [
+          "Zen food",
+          "Fruit",
+          "Nuts",
+          "Meditation snacks"
+        ],
+        "favoriteItem": "Meditation mat",
+        "likesItems": [
+          "Incense",
+          "Prayer beads",
+          "Zen garden",
+          "Bell"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby (peaceful care)"
+        ],
+        "evolvesTo": [
+          "Ultimate serenity forms"
+        ],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Timeless",
+        "cycleStage": "N/A"
+      },
+      "firstAppearance": "Tamagotchi Nano",
+      "pixIntroduction": true,
+      "popularity": 69,
+      "traits": [
+        "Serene",
+        "Calm",
+        "Spiritual",
+        "Balanced",
+        "Meditative"
+      ],
+      "specialAbilities": [
+        "Meditate",
+        "Bring peace",
+        "Heal stress"
+      ],
+      "baseStats": {
+        "serenity": "Maximum",
+        "spirituality": "Very High",
+        "stress_resistance": "Maximum"
+      },
+      "imageUrl": "megumi.png"
+    },
+    {
+      "id": 24,
+      "name": "Monsieur Tamagotchi",
+      "aliases": [
+        "French Gentleman",
+        "Monsieur"
+      ],
+      "description": "Un personnage français sophistiqué avec accent Parisien. Il est poli, raffiné et aime la culture.",
+      "personality": [
+        "Français",
+        "Sophistiqué",
+        "Poli",
+        "Romantique",
+        "Cultivé"
+      ],
+      "preferences": {
+        "favoriteFood": "French cuisine",
+        "likesFood": [
+          "Wine",
+          "Cheese",
+          "Baguette",
+          "Escargot"
+        ],
+        "favoriteItem": "Beret",
+        "likesItems": [
+          "Wine glass",
+          "Rose",
+          "Eiffel Tower",
+          "French flag"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby (French care)"
+        ],
+        "evolvesTo": [
+          "Ultimate gentleman forms"
+        ],
+        "rarity": "Special Region"
+      },
+      "lifespan": {
+        "ageRange": "Adult Gentleman",
+        "cycleStage": 4
+      },
+      "firstAppearance": "Tamagotchi Pix (Regional variant)",
+      "pixIntroduction": true,
+      "popularity": 64,
+      "traits": [
+        "French",
+        "Sophisticated",
+        "Polite",
+        "Romantic",
+        "Cultured"
+      ],
+      "baseStats": {
+        "sophistication": "Maximum",
+        "politeness": "Very High",
+        "romance": "High"
+      },
+      "imageUrl": "monsieur_tamagotchi.png",
+      "note": "Regional character variant"
+    },
+    {
+      "id": 25,
+      "name": "Thecatchi",
+      "aliases": [
+        "Cat",
+        "Kitty Tamagotchi"
+      ],
+      "description": "Un personnage félin adorable inspiré par les chats. Il est indépendant, mignon et parfois capricieux.",
+      "personality": [
+        "Félin",
+        "Indépendant",
+        "Mignon",
+        "Capricieux",
+        "Curieux"
+      ],
+      "preferences": {
+        "favoriteFood": "Fish",
+        "likesFood": [
+          "Sashimi",
+          "Fish-based meals",
+          "Treats"
+        ],
+        "favoriteItem": "Yarn ball",
+        "likesItems": [
+          "Toys",
+          "Catnip",
+          "Laser pointer",
+          "Scratching post"
+        ]
+      },
+      "evolution": {
+        "evolvesFrom": [
+          "Baby (cat care)"
+        ],
+        "evolvesTo": [
+          "Ultimate cat forms"
+        ],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Cat lifecycle",
+        "cycleStage": "Variable"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 77,
+      "traits": [
+        "Feline",
+        "Independent",
+        "Cute",
+        "Moody",
+        "Curious",
+        "Playful"
+      ],
+      "specialAbilities": [
+        "Hunt precisely",
+        "Land perfectly",
+        "Climb heights"
+      ],
+      "baseStats": {
+        "independence": "Maximum",
+        "agility": "Very High",
+        "cuteness": "High"
+      },
+      "imageUrl": "thecatchi.png"
+    },
+    {
+      "id": 26,
+      "name": "Himetchi",
+      "description": "Himetchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/8/8b/Himetchi.PNG"
+    },
+    {
+      "id": 27,
+      "name": "KuroMametchi",
+      "description": "KuroMametchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/b/b3/KuroMametchi.PNG"
+    },
+    {
+      "id": 28,
+      "name": "Mimitchi",
+      "description": "Mimitchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/0/06/Mimitchi.PNG"
+    },
+    {
+      "id": 29,
+      "name": "Kikitchi",
+      "description": "Kikitchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/1/1f/Kikitchi.PNG"
+    },
+    {
+      "id": 30,
+      "name": "Terukerotchi",
+      "description": "Terukerotchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/6/6f/Terukerotchi.PNG"
+    },
+    {
+      "id": 31,
+      "name": "Haretchi",
+      "description": "Haretchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/5/57/Haretchi.PNG"
+    },
+    {
+      "id": 32,
+      "name": "Mokokotchi",
+      "description": "Mokokotchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/8/89/Mokokotchi.PNG"
+    },
+    {
+      "id": 33,
+      "name": "Soyofuwatchi",
+      "description": "Soyofuwatchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/9/90/Soyofuwatchi.PNG"
+    },
+    {
+      "id": 34,
+      "name": "Kurupoyotchi",
+      "description": "Kurupoyotchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/c/c1/Kurupoyotchi.PNG"
+    },
+    {
+      "id": 35,
+      "name": "Tororitchi",
+      "description": "Tororitchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/1/1f/Tororitchi.PNG"
+    },
+    {
+      "id": 36,
+      "name": "Fuyofuyotchi",
+      "description": "Fuyofuyotchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/4/42/Fuyofuyotchi.PNG"
+    },
+    {
+      "id": 37,
+      "name": "Chiroritchi",
+      "description": "Chiroritchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/5/5e/Chiroritchi.PNG"
+    },
+    {
+      "id": 38,
+      "name": "Mokumokutchi",
+      "description": "Mokumokutchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/d/d4/Mokumokutchi.PNG"
+    },
+    {
+      "id": 39,
+      "name": "Mimitamatchi",
+      "description": "Mimitamatchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/e/eb/Mimitamatchi.PNG"
+    },
+    {
+      "id": 40,
+      "name": "Awamokotchi",
+      "description": "Awamokotchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/0/0c/Awamokotchi.PNG"
+    },
+    {
+      "id": 41,
+      "name": "Gozarutchi",
+      "description": "Gozarutchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/7/72/Gozarutchi.PNG"
+    },
+    {
+      "id": 42,
+      "name": "Ninjanyatchi",
+      "description": "Ninjanyatchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/2/2e/Ninjanyatchi.PNG"
+    },
+    {
+      "id": 43,
+      "name": "Weeptchi",
+      "description": "Weeptchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/9/96/Weeptchi.PNG"
+    },
+    {
+      "id": 44,
+      "name": "Neliatchi",
+      "description": "Neliatchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/3/37/Neliatchi.PNG"
+    },
+    {
+      "id": 45,
+      "name": "Shimagurutchi",
+      "description": "Shimagurutchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/2/26/Shimagurutchi.PNG"
+    },
+    {
+      "id": 46,
+      "name": "Memetchi",
+      "description": "Memetchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/f/f2/Memetchi.PNG"
+    },
+    {
+      "id": 47,
+      "name": "Paintotchi",
+      "description": "Paintotchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/3/3b/Paintotchi.PNG"
+    },
+    {
+      "id": 48,
+      "name": "Coffretchi",
+      "description": "Coffretchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/f/f5/Coffretchi.PNG"
+    },
+    {
+      "id": 49,
+      "name": "Murachakitchi",
+      "description": "Murachakitchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/e/e1/Murachakitchi.PNG"
+    },
+    {
+      "id": 50,
+      "name": "Momotchi",
+      "description": "Momotchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/d/d5/Momotchi.PNG"
+    },
+    {
+      "id": 51,
+      "name": "Orenetchi",
+      "description": "Orenetchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/5/5e/Orenetchi.PNG"
+    },
+    {
+      "id": 52,
+      "name": "Sebiretchi",
+      "description": "Sebiretchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/1/1d/Sebiretchi.PNG"
+    },
+    {
+      "id": 53,
+      "name": "Charatchi",
+      "description": "Charatchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/7/7a/Charatchi.PNG"
+    },
+    {
+      "id": 54,
+      "name": "Puchitomatchi",
+      "description": "Puchitomatchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/e/e7/Puchitomatchi.PNG"
+    },
+    {
+      "id": 55,
+      "name": "Tantotchi",
+      "description": "Tantotchi (ajouté) - description à compléter.",
+      "personality": [],
+      "preferences": {
+        "favoriteFood": "Unknown",
+        "likesFood": [],
+        "favoriteItem": "Unknown",
+        "likesItems": []
+      },
+      "evolution": {
+        "evolvesFrom": [],
+        "evolvesTo": [],
+        "rarity": "Uncommon"
+      },
+      "lifespan": {
+        "ageRange": "Unknown",
+        "cycleStage": "1"
+      },
+      "firstAppearance": "Tamagotchi Pix",
+      "pixIntroduction": true,
+      "popularity": 50,
+      "traits": [],
+      "specialAbilities": [],
+      "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/a/a4/Tantotchi.PNG"
+    }
+  ],
+  "statistics": {
+    "totalCharacters": 25,
+    "rarity_distribution": {
+      "Common": 3,
+      "Uncommon": 10,
+      "Rare": 3,
+      "Very Rare": 4,
+      "Special Event": 2,
+      "Special Region": 1,
+      "Crossover": 2
+    },
+    "personality_types": [
+      "Cute/Innocent",
+      "Intelligent/Studious",
+      "Adventurous/Sports",
+      "Creative/Artistic",
+      "Mystical/Supernatural",
+      "Professional/Expert",
+      "Lazy/Apathetic",
+      "Royal/Sophisticated"
+    ],
+    "average_popularity": 72.8,
+    "most_popular": "Tamagotchi Classic (100)",
+    "least_popular": "Oniontchi (55)",
+    "life_cycle_stages": {
+      "1": "Baby",
+      "2": "Child/Young",
+      "3": "Young Adult/Teenager",
+      "4": "Adult",
+      "5": "Elderly/Evolved",
+      "N/A": "Special/Eternal"
+    }
+  },
+  "evolution_chains": {
+    "description": "Représentant les principales chaînes d'évolution connues dans Tamagotchi Pix",
+    "chains": [
+      {
+        "baseForm": "Baby",
+        "stage1": [
+          "Tamagotchi",
+          "Chamametchi"
+        ],
+        "stage2": [
+          "Mametchi",
+          "Kuchipatchi",
+          "Violetchi"
+        ],
+        "stage3": [
+          "Maskulutchi",
+          "Ultimate forms"
+        ]
+      },
+      {
+        "nameEvolution": "Royalty Path",
+        "baseForm": "Baby",
+        "specialConditions": "Perfect care, luxury items",
+        "evolution": [
+          "Himespetchi",
+          "Empress forms"
+        ]
+      },
+      {
+        "nameEvolution": "Magic Path",
+        "baseForm": "Baby",
+        "specialConditions": "Magic items, spell training",
+        "evolution": [
+          "Witchtchi",
+          "Supreme witch"
+        ]
+      }
+    ]
+  },
+  "notes": {
+    "pixSpecific": "Ces données sont concentrées sur les personnages présents spécifiquement dans Tamagotchi Pix avec des informations sur leur activation, préférences alimentaires uniques et interactions.",
+    "dataSource": "Compilé à partir des informations du wiki Fandom et du site pixfavourites.tiddlyhost.com",
+    "accuracy": "Les informations sont basées sur le contenu de wiki communautaire et peuvent varier selon les régions et versions du jeu",
+    "lastSync": "2026-02-11T00:00:00Z"
+  }
+}

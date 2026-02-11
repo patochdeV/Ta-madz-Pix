@@ -15,6 +15,7 @@ import { LinearGradient } from "expo-linear-gradient";
 import * as Haptics from "expo-haptics";
 import Animated, { FadeInDown } from "react-native-reanimated";
 import { categories, allItems } from "@/data/tamagotchi-items";
+import { tamaCharacters } from "@/data/tamagotchi-characters";
 import { useFavorites } from "@/context/FavoritesContext";
 import Colors from "@/constants/colors";
 
@@ -76,6 +77,15 @@ export default function HomeScreen() {
             <Pressable
               onPress={() => {
                 Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
+                router.push("/characters");
+              }}
+              style={({ pressed }) => [styles.iconButton, { opacity: pressed ? 0.7 : 1 }]}
+            >
+              <MaterialIcons name="diversity-3" size={22} color={Colors.light.text} />
+            </Pressable>
+            <Pressable
+              onPress={() => {
+                Haptics.impactAsync(Haptics.ImpactFeedbackStyle.Light);
                 router.push("/favorites");
               }}
               style={({ pressed }) => [styles.iconButton, { opacity: pressed ? 0.7 : 1 }]}
@@ -98,6 +108,10 @@ export default function HomeScreen() {
           <View style={styles.statCard}>
             <Text style={styles.statNumber}>{categories.length}</Text>
             <Text style={styles.statLabel}>Cat.</Text>
+          </View>
+          <View style={styles.statCard}>
+            <Text style={styles.statNumber}>{tamaCharacters.length}</Text>
+            <Text style={styles.statLabel}>Perso.</Text>
           </View>
           <View style={styles.statCard}>
             <Text style={[styles.statNumber, { color: Colors.light.tint }]}>{favorites.length}</Text>
