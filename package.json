@@ -12,6 +12,7 @@
     "server:prod": "NODE_ENV=production node server_dist/index.js",
     "db:push": "drizzle-kit push",
     "start": "npx expo start",
+    "download:characters": "node scripts/fetch-all-character-images.js && node scripts/embed-images.js && node scripts/generate_local_image_map.js",
     "lint": "npx expo lint",
     "lint:fix": "npx expo lint --fix"
   },
@@ -70,7 +71,8 @@
     "eslint": "^9.31.0",
     "eslint-config-expo": "~10.0.0",
     "patch-package": "^8.0.0",
-    "typescript": "~5.9.2"
+    "typescript": "~5.9.2",
+    "babel-plugin-module-resolver": "^5.0.0"
   },
   "private": true
 }

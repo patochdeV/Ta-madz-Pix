@@ -118,7 +118,7 @@ export default function CharacterDetailScreen() {
             <View style={styles.spriteSection}>
               <View style={styles.spriteBg}>
                 <Image
-                  source={{ uri: character.spriteUrl }}
+                  source={character.spriteSource ? character.spriteSource : { uri: character.spriteUrl }}
                   style={styles.sprite}
                   contentFit="contain"
                 />

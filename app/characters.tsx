@@ -93,7 +93,7 @@ function CharacterCard({ character }: { character: TamaCharacter }) {
 
         <View style={styles.spriteContainer}>
           <Image
-            source={{ uri: character.spriteUrl }}
+            source={character.spriteSource ? character.spriteSource : { uri: character.spriteUrl }}
             style={styles.characterSprite}
             contentFit="contain"
           />
