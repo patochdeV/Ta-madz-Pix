@@ -1,5 +1,5 @@
 import React, { memo, useMemo } from "react";
-import { Image, ImageProps, StyleSheet } from "react-native";
+import { Image, ImageProps } from "react-native";
 
 export interface OptimizedCharacterImageProps extends Omit<ImageProps, "source"> {
   characterName: string;
