@@ -7,7 +7,6 @@ import {
   Pressable,
   TextInput,
   Platform,
-  useWindowDimensions,
 } from "react-native";
 import { router } from "expo-router";
 import { useSafeAreaInsets } from "react-native-safe-area-context";
@@ -136,7 +135,6 @@ function CharacterCard({ character }: { character: TamaCharacter }) {
 
 export default function CharactersScreen() {
   const insets = useSafeAreaInsets();
-  const { width } = useWindowDimensions();
   const webTopInset = Platform.OS === "web" ? 67 : 0;
   const [searchQuery, setSearchQuery] = useState("");
 

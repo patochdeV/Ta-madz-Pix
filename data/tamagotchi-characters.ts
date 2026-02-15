@@ -22,13 +22,49 @@ try {
   fandomImages = {};
 }
 
-// Images embarquées (base64 data URLs) - chargées depuis le bundle
-let embeddedImages: Record<string, string> = {};
-try {
-  // eslint-disable-next-line @typescript-eslint/no-var-requires
-  embeddedImages = require("./embedded-character-images").embeddedCharacterImages || {};
-} catch (e) {
-  embeddedImages = {};
+// Images embarquées (base64 data URLs) - chargement optimisé
+// Core: images essentielles chargées au démarrage (0.69 MB)
+let embeddedImagesCore: Record<string, string> | null = null;
+let embeddedImagesCoreLoaded = false;
+
+// Extra: images supplémentaires chargées à la demande (1.18 MB)
+let embeddedImagesExtra: Record<string, string> | null = null;
+let embeddedImagesExtraLoaded = false;
+
+function getEmbeddedImagesCore(): Record<string, string> {
+  if (!embeddedImagesCoreLoaded) {
+    try {
+      // eslint-disable-next-line @typescript-eslint/no-var-requires
+      embeddedImagesCore = require("./embedded-character-images-core").embeddedCharacterImagesCore || {};
+    } catch (e) {
+      embeddedImagesCore = {};
+    }
+    embeddedImagesCoreLoaded = true;
+  }
+  return embeddedImagesCore || {};
+}
+
+function getEmbeddedImagesExtra(): Record<string, string> {
+  if (!embeddedImagesExtraLoaded) {
+    try {
+      // eslint-disable-next-line @typescript-eslint/no-var-requires
+      embeddedImagesExtra = require("./embedded-character-images-extra").embeddedCharacterImagesExtra || {};
+    } catch (e) {
+      embeddedImagesExtra = {};
+    }
+    embeddedImagesExtraLoaded = true;
+  }
+  return embeddedImagesExtra || {};
+}
+
+function getEmbeddedImage(characterName: string): string | undefined {
+  // Chercher d'abord dans le core (toujours disponible)
+  const core = getEmbeddedImagesCore();
+  if (core[characterName]) return core[characterName];
+  
+  // Chercher ensuite dans l'extra (charge à la demande)
+  const extra = getEmbeddedImagesExtra();
+  return extra[characterName];
 }
 
 // Mapping local généré (peut être vide). Ce fichier est créé par `scripts/generate_local_image_map.js`
@@ -42,8 +78,9 @@ try {
 
 function resolveImageUrl(characterName: string, imageField: string) {
   // Priorité (du plus fiable au moins fiable):
-  // 1. Images embarquées (base64) - toujours disponibles si générées
-  if (embeddedImages[characterName]) return embeddedImages[characterName];
+  // 1. Images embarquées (base64) - core + extra
+  const embeddedImage = getEmbeddedImage(characterName);
+  if (embeddedImage) return embeddedImage;
   // 2. Mapping fandom (URLs complets)
   if (fandomImages[characterName]) return fandomImages[characterName];
   if (!imageField) return "";
