@@ -91,24 +91,105 @@ function resolveImageUrl(characterName: string, imageField: string) {
   return mrblinkyUrl;
 }
 
-export const tamaCharacters: TamaCharacter[] = (fullData.characters || []).map((c: any, idx: number) => {
-  const idStr = c.id ? String(c.id) : `tama-${idx}`;
-  const spriteUrl = resolveImageUrl(c.name, c.imageUrl || c.spriteUrl || "");
-  const spriteSource = localImages[c.name] || undefined;
+const raiseableCharacterNames = new Set<string>([
+  // Baby
+  "Tamabotchi",
+  "Tamapatchi",
 
-  return {
-    id: idStr,
-    name: c.name || `Unknown ${idStr}`,
-    description: c.description || "",
-    spriteUrl: spriteUrl,
-    spriteSource: spriteSource,
-    favoriteItemIds: (c.preferences && c.preferences.favoriteItemIds) || [],
-    preferedCategories: c.preferences && c.preferences.likesItems ? c.preferences.likesItems : (c.preferedCategories || []),
-    rarity: (c.evolution && c.evolution.rarity) || (c.rarity as any) || "common",
-    evolves_from: (c.evolution && c.evolution.evolvesFrom && c.evolution.evolvesFrom[0]) || c.evolves_from || undefined,
-    evolves_to: (c.evolution && c.evolution.evolvesTo) || c.evolves_to || [],
-  };
-});
+  // Child (6)
+  "Mametchi",
+  "Kuchipatchi",
+  "Tamagotchi",
+  "Gourmetchi",
+  "Koffitchi",
+  "Oniontchi",
+
+  // Teen (6)
+  "Gamer Tamagotchi",
+  "Himespetchi",
+  "Cybertchi",
+  "Witchtchi",
+  "Angelchi",
+  "Demonchi",
+
+  // Adults (24)
+  "Himetchi",
+  "KuroMametchi",
+  "Mimitchi",
+  "Kikitchi",
+  "Terukerotchi",
+  "Haretchi",
+  "Mokokotchi",
+  "Soyofuwatchi",
+  "Kurupoyotchi",
+  "Tororitchi",
+  "Fuyofuyotchi",
+  "Chiroritchi",
+  "Mokumokutchi",
+  "Mimitamatchi",
+  "Awamokotchi",
+  "Gozarutchi",
+  "Ninjanyatchi",
+  "Weeptchi",
+  "Neliatchi",
+  "Shimagurutchi",
+  "Memetchi",
+  "Paintotchi",
+  "Coffretchi",
+  "Murachakitchi",
+]);
+
+const babyCharacters: TamaCharacter[] = [
+  {
+    id: "tamabotchi",
+    name: "Tamabotchi",
+    description: "Bébé Tamagotchi Pix (masculin).",
+    spriteUrl: resolveImageUrl("Tamabotchi", "Tamabotchi_Happy.webp"),
+    spriteSource: localImages["Tamabotchi"],
+    favoriteItemIds: [],
+    preferedCategories: [],
+    rarity: "common",
+  },
+  {
+    id: "tamapatchi",
+    name: "Tamapatchi",
+    description: "Bébé Tamagotchi Pix (féminin).",
+    spriteUrl: resolveImageUrl("Tamapatchi", "Tamapatchi_Happy.webp"),
+    spriteSource: localImages["Tamapatchi"],
+    favoriteItemIds: [],
+    preferedCategories: [],
+    rarity: "common",
+  },
+];
+
+export const tamaCharacters: TamaCharacter[] = [
+  ...babyCharacters,
+  ...(fullData.characters || [])
+    .filter((c: any) => raiseableCharacterNames.has(c.name))
+    .map((c: any, idx: number) => {
+      const idStr = c.id ? String(c.id) : `tama-${idx}`;
+      const spriteUrl = resolveImageUrl(c.name, c.imageUrl || c.spriteUrl || "");
+      const spriteSource = localImages[c.name] || undefined;
+
+      return {
+        id: idStr,
+        name: c.name || `Unknown ${idStr}`,
+        description: c.description || "",
+        spriteUrl,
+        spriteSource,
+        favoriteItemIds: (c.preferences && c.preferences.favoriteItemIds) || [],
+        preferedCategories:
+          (c.preferences && c.preferences.likesItems) || (c.preferedCategories || []),
+        rarity: (c.evolution && c.evolution.rarity) || (c.rarity as any) || "common",
+        evolves_from:
+          (c.evolution && c.evolution.evolvesFrom && c.evolution.evolvesFrom[0]) ||
+          c.evolves_from ||
+          undefined,
+        evolves_to: (c.evolution && c.evolution.evolvesTo) || c.evolves_to || [],
+      };
+    }),
+];
+
 
 export function getCharacterById(id: string): TamaCharacter | undefined {
   return tamaCharacters.find((char) => String(char.id) === String(id) || char.id === id || char.name === id);
