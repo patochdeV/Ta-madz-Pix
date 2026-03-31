@@ -9,6 +9,14 @@ export interface TamaCharacter {
   rarity: "common" | "uncommon" | "rare" | "legendary" | "special" | "very-rare";
   evolves_from?: string;
   evolves_to?: string[];
+  // Nouvelles propriétés pour les préférences et soins
+  personality?: string[];
+  favoriteFoods?: string[];
+  favoriteItems?: string[];
+  careMistakes?: number;
+  specialCondition?: string;
+  friendshipLevel?: string;
+  eggGroup?: string;
 }
 
 // Charger les données complètes exportées en JSON
@@ -213,6 +221,13 @@ export const tamaCharacters: TamaCharacter[] = [
           c.evolves_from ||
           undefined,
         evolves_to: (c.evolution && c.evolution.evolvesTo) || c.evolves_to || [],
+        personality: c.personality || [],
+        favoriteFoods: (c.preferences && c.preferences.likesFood) || [],
+        favoriteItems: (c.preferences && c.preferences.likesItems) || [],
+        careMistakes: (c.care && c.care.careMistakes) || undefined,
+        specialCondition: (c.care && c.care.specialCondition) || undefined,
+        friendshipLevel: (c.care && c.care.friendshipLevel) || undefined,
+        eggGroup: (c.care && c.care.eggGroup) || undefined,
       };
     }),
 ];

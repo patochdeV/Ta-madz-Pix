@@ -155,11 +155,11 @@ export default function CharacterDetailScreen() {
               </View>
             )}
 
-            {character.evolves_to && (
+            {character.evolves_to && character.evolves_to.length > 0 && (
               <View style={styles.evolutionInfo}>
                 <Ionicons name="arrow-down" size={16} color="#8B5CF6" />
                 <Text style={styles.evolutionText}>
-                  Peut évoluer en: {getCharacterById(character.evolves_to)?.name}
+                  Peut évoluer en: {character.evolves_to.map(name => getCharacterById(name)?.name || name).join(', ')}
                 </Text>
               </View>
             )}
@@ -245,6 +245,73 @@ export default function CharacterDetailScreen() {
                   </Pressable>
                 );
               })}
+            </View>
+          </Animated.View>
+        )}
+
+        {character.personality && character.personality.length > 0 && (
+          <Animated.View entering={FadeIn.delay(250)} style={styles.section}>
+            <Text style={styles.sectionTitle}>Personnalité</Text>
+            <View style={styles.personalityContainer}>
+              {character.personality.map((trait, index) => (
+                <View key={index} style={styles.personalityTag}>
+                  <Text style={styles.personalityText}>{trait}</Text>
+                </View>
+              ))}
+            </View>
+          </Animated.View>
+        )}
+
+        {character.favoriteFoods && character.favoriteFoods.length > 0 && (
+          <Animated.View entering={FadeIn.delay(300)} style={styles.section}>
+            <Text style={styles.sectionTitle}>Nourritures préférées</Text>
+            <View style={styles.foodsList}>
+              {character.favoriteFoods.map((food, index) => (
+                <View key={index} style={styles.foodTag}>
+                  <Ionicons name="restaurant" size={14} color="#FF6B9D" />
+                  <Text style={styles.foodText}>{food}</Text>
+                </View>
+              ))}
+            </View>
+          </Animated.View>
+        )}
+
+        {(character.careMistakes !== undefined || character.specialCondition || character.eggGroup) && (
+          <Animated.View entering={FadeIn.delay(350)} style={styles.section}>
+            <Text style={styles.sectionTitle}>Informations de soin</Text>
+            <View style={styles.careInfo}>
+              {character.careMistakes !== undefined && (
+                <View style={styles.careItem}>
+                  <Ionicons name="warning" size={16} color="#F59E0B" />
+                  <Text style={styles.careText}>
+                    Erreurs de soin max: {character.careMistakes}
+                  </Text>
+                </View>
+              )}
+              {character.specialCondition && (
+                <View style={styles.careItem}>
+                  <Ionicons name="star" size={16} color="#8B5CF6" />
+                  <Text style={styles.careText}>
+                    Condition spéciale: {character.specialCondition}
+                  </Text>
+                </View>
+              )}
+              {character.eggGroup && (
+                <View style={styles.careItem}>
+                  <Ionicons name="egg" size={16} color="#10B981" />
+                  <Text style={styles.careText}>
+                    Groupe d'œuf: {character.eggGroup}
+                  </Text>
+                </View>
+              )}
+              {character.friendshipLevel && (
+                <View style={styles.careItem}>
+                  <Ionicons name="heart" size={16} color="#EF4444" />
+                  <Text style={styles.careText}>
+                    Niveau d'amitié: {character.friendshipLevel}
+                  </Text>
+                </View>
+              )}
             </View>
           </Animated.View>
         )}
@@ -424,6 +491,66 @@ const styles = StyleSheet.create({
     fontSize: 11,
     fontFamily: "Nunito_400Regular",
     color: "#999",
+  },
+  personalityContainer: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 8,
+  },
+  personalityTag: {
+    backgroundColor: "#8B5CF6" + "15",
+    paddingHorizontal: 12,
+    paddingVertical: 6,
+    borderRadius: 16,
+    borderWidth: 1,
+    borderColor: "#8B5CF6" + "30",
+  },
+  personalityText: {
+    fontSize: 12,
+    fontFamily: "Nunito_600SemiBold",
+    color: "#8B5CF6",
+  },
+  foodsList: {
+    flexDirection: "row",
+    flexWrap: "wrap",
+    gap: 8,
+  },
+  foodTag: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "#FF6B9D" + "15",
+    paddingHorizontal: 10,
+    paddingVertical: 6,
+    borderRadius: 16,
+    gap: 6,
+  },
+  foodText: {
+    fontSize: 12,
+    fontFamily: "Nunito_600SemiBold",
+    color: "#FF6B9D",
+  },
+  careInfo: {
+    gap: 8,
+  },
+  careItem: {
+    flexDirection: "row",
+    alignItems: "center",
+    backgroundColor: "#FFFFFF",
+    paddingHorizontal: 12,
+    paddingVertical: 10,
+    borderRadius: 10,
+    shadowColor: "#000",
+    shadowOpacity: 0.05,
+    shadowRadius: 4,
+    shadowOffset: { width: 0, height: 1 },
+    elevation: 1,
+    gap: 8,
+  },
+  careText: {
+    fontSize: 14,
+    fontFamily: "Nunito_500Medium",
+    color: "#333",
+    flex: 1,
   },
   errorContainer: {
     flex: 1,
