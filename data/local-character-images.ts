@@ -21,7 +21,7 @@ export const localCharacterImages: Record<string, any> = {
   "Soyofuwatchi": require("../assets/images/characters/Soyofuwatchi_Pix_Sprite.webp"),
   "Kurupoyotchi": require("../assets/images/characters/Kurupoyotchi_Pix_Sprite.webp"),
   "Tororitchi": require("../assets/images/characters/Tororitchi_Pix_Sprite.webp"),
-  "Fuyofuyotchi": require("../assets/images/characters/Fuyofuyotchi.webp"),
+  "Fuyofuyotchi": require("../assets/images/characters/Fuyofuyotchi (1).webp"),
   "Chiroritchi": require("../assets/images/characters/Chiroritchi (1).webp"),
   "Mokumokutchi": require("../assets/images/characters/Mokumokutchi.webp"),
   "Mimitamatchi": require("../assets/images/characters/Mimitamatchi_sprite.webp"),

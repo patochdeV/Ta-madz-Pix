@@ -121,7 +121,7 @@ export default function ItemDetailScreen() {
               <Text style={styles.stepNumText}>2</Text>
             </View>
             <Text style={styles.stepText}>
-              Sélectionnez l'option « Download »
+              Sélectionnez l’option « Download »
             </Text>
           </View>
           <View style={styles.stepRow}>

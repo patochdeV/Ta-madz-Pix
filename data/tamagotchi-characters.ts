@@ -76,19 +76,40 @@ try {
   localImages = {};
 }
 
-function resolveImageUrl(characterName: string, imageField: string) {
-  // Priorité (du plus fiable au moins fiable):
+function resolveImageUrl(characterName: string, imageField: string): string {
+  // Préférer les images locales embarquées
+  if (localImages[characterName]) {
+    return ""; // La source locale sera utilisée via spriteSource
+  }
+
   // 1. Images embarquées (base64) - core + extra
   const embeddedImage = getEmbeddedImage(characterName);
   if (embeddedImage) return embeddedImage;
+
   // 2. Mapping fandom (URLs complets)
   if (fandomImages[characterName]) return fandomImages[characterName];
-  if (!imageField) return "";
-  if (imageField.startsWith("http://") || imageField.startsWith("https://")) return imageField;
 
-  // Fallback: miroir mrblinky
+  // 3. Fallback URL confirmé en HTTPS
+  if (!imageField) return "";
+  if (imageField.startsWith("http://") || imageField.startsWith("https://")) {
+    return imageField.replace(/^http:\/\//, "https://");
+  }
+
   const mrblinkyUrl = `https://mrblinky.net/tama/pix/download/${imageField}`;
   return mrblinkyUrl;
+}
+
+function resolveCharacterSprite(characterName: string, imageField: string) {
+  if (localImages[characterName]) {
+    return localImages[characterName];
+  }
+
+  const embeddedImage = getEmbeddedImage(characterName);
+  if (embeddedImage) {
+    return { uri: embeddedImage };
+  }
+
+  return undefined;
 }
 
 const raiseableCharacterNames = new Set<string>([
@@ -144,8 +165,10 @@ const babyCharacters: TamaCharacter[] = [
     id: "tamabotchi",
     name: "Tamabotchi",
     description: "Bébé Tamagotchi Pix (masculin).",
-    spriteUrl: resolveImageUrl("Tamabotchi", "Tamabotchi_Happy.webp"),
-    spriteSource: localImages["Tamabotchi"],
+    spriteSource: resolveCharacterSprite("Tamabotchi", "Tamabotchi_Happy.webp"),
+    spriteUrl: resolveCharacterSprite("Tamabotchi", "Tamabotchi_Happy.webp")
+      ? ""
+      : resolveImageUrl("Tamabotchi", "Tamabotchi_Happy.webp"),
     favoriteItemIds: [],
     preferedCategories: [],
     rarity: "common",
@@ -154,8 +177,10 @@ const babyCharacters: TamaCharacter[] = [
     id: "tamapatchi",
     name: "Tamapatchi",
     description: "Bébé Tamagotchi Pix (féminin).",
-    spriteUrl: resolveImageUrl("Tamapatchi", "Tamapatchi_Happy.webp"),
-    spriteSource: localImages["Tamapatchi"],
+    spriteSource: resolveCharacterSprite("Tamapatchi", "Tamapatchi_Happy.webp"),
+    spriteUrl: resolveCharacterSprite("Tamapatchi", "Tamapatchi_Happy.webp")
+      ? ""
+      : resolveImageUrl("Tamapatchi", "Tamapatchi_Happy.webp"),
     favoriteItemIds: [],
     preferedCategories: [],
     rarity: "common",
@@ -168,8 +193,10 @@ export const tamaCharacters: TamaCharacter[] = [
     .filter((c: any) => raiseableCharacterNames.has(c.name))
     .map((c: any, idx: number) => {
       const idStr = c.id ? String(c.id) : `tama-${idx}`;
-      const spriteUrl = resolveImageUrl(c.name, c.imageUrl || c.spriteUrl || "");
-      const spriteSource = localImages[c.name] || undefined;
+      const spriteSource = resolveCharacterSprite(c.name, c.imageUrl || c.spriteUrl || "");
+      const spriteUrl = spriteSource
+        ? ""
+        : resolveImageUrl(c.name, c.imageUrl || c.spriteUrl || "");
 
       return {
         id: idStr,
