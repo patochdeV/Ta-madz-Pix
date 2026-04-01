@@ -26,18 +26,30 @@
         "Doux"
       ],
       "preferences": {
-        "favoriteFood": "Ramen",
+        "favoriteFood": "Hamburger",
         "likesFood": [
-          "Rice",
-          "Noodles",
-          "Bread"
+          "Hot Dog",
+          "Udon Noodles",
+          "Apple",
+          "Mametchi Lollipop",
+          "Chocolate Cake",
+          "Bunny Cake",
+          "Gingerbread Man"
         ],
-        "favoriteItem": "Books",
+        "favoriteItem": "Science Project",
         "likesItems": [
-          "Pencil",
-          "School Uniform",
-          "Glasses"
+          "Stationery Set",
+          "Party Popper",
+          "Big Ribbon",
+          "Mametchi Hat",
+          "Magic Hat"
         ]
+      },
+      "care": {
+        "careMistakes": 1,
+        "specialCondition": "Play with Science Project item 3+ times",
+        "friendshipLevel": "Friendly",
+        "eggGroup": "Smart"
       },
       "evolution": {
         "evolvesFrom": [
@@ -83,19 +95,32 @@
         "Insouciant"
       ],
       "preferences": {
-        "favoriteFood": "Spaghetti",
+        "favoriteFood": "Tower Burger",
         "likesFood": [
-          "Burger",
-          "Pizza",
-          "Candy",
-          "Donut"
+          "Jumbo Steak",
+          "Gyoza Dumplings",
+          "Homemade Cookies",
+          "Ice Cream Tub",
+          "Kuchipachi Crepe",
+          "Mango Pudding",
+          "Popcorn"
         ],
-        "favoriteItem": "TV",
+        "favoriteItem": "Sketchbook",
         "likesItems": [
-          "Remote Control",
-          "Snacks",
-          "Comedy Show Ticket"
+          "Snorkel Set",
+          "Party Popper",
+          "Fluffy Earmuffs",
+          "Kuchipatchi Bag",
+          "Heart Sunglasses",
+          "Apple Hat",
+          "Pompom Headband"
         ]
+      },
+      "care": {
+        "careMistakes": 5,
+        "specialCondition": "Eat Tower Burger meal 3+ times",
+        "friendshipLevel": "Friendly",
+        "eggGroup": "Charming"
       },
       "evolution": {
         "evolvesFrom": [
@@ -1534,28 +1559,63 @@
     {
       "id": 26,
       "name": "Himetchi",
-      "description": "Himetchi (ajouté) - description à compléter.",
-      "personality": [],
+      "description": "Une jeune fille princière gentille et sensible. Elle aime les choses douces et les belles choses.",
+      "personality": [
+        "Princière",
+        "Gentille",
+        "Sensible",
+        "Élégante",
+        "Sociable"
+      ],
       "preferences": {
-        "favoriteFood": "Unknown",
-        "likesFood": [],
-        "favoriteItem": "Unknown",
-        "likesItems": []
+        "favoriteFood": "Pink Curry",
+        "likesFood": [
+          "Cereal",
+          "Flower Bread",
+          "Cheese Fondue",
+          "Honey Toast",
+          "Dreamy Cotton Candy"
+        ],
+        "favoriteItem": "Flower Seeds",
+        "likesItems": [
+          "Snowman",
+          "Big Bow",
+          "Flower Crown Accessory",
+          "Tiara"
+        ]
+      },
+      "care": {
+        "careMistakes": 1,
+        "specialCondition": "Eat Gummies snack 3+ times",
+        "friendshipLevel": "Friendly",
+        "eggGroup": "Smart"
       },
       "evolution": {
-        "evolvesFrom": [],
-        "evolvesTo": [],
-        "rarity": "Uncommon"
+        "evolvesFrom": [
+          "Baby"
+        ],
+        "evolvesTo": [
+          "Himespetchi"
+        ],
+        "rarity": "Common"
       },
       "lifespan": {
-        "ageRange": "Unknown",
-        "cycleStage": "1"
+        "ageRange": "Adult",
+        "cycleStage": 4
       },
-      "firstAppearance": "Tamagotchi Pix",
+      "firstAppearance": "Tamagotchi m!",
       "pixIntroduction": true,
-      "popularity": 50,
-      "traits": [],
-      "specialAbilities": [],
+      "popularity": 83,
+      "traits": [
+        "Elegant",
+        "Kind",
+        "Sensitive",
+        "Social"
+      ],
+      "specialAbilities": [
+        "Social skills",
+        "Artistic taste"
+      ],
       "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/8/8b/Himetchi.PNG"
     },
     {
@@ -2074,28 +2134,58 @@
     {
       "id": 46,
       "name": "Memetchi",
-      "description": "Memetchi (ajouté) - description à compléter.",
-      "personality": [],
+      "description": "Une fille populaire et mignonne qui aime la musique et les arts. Elle est toujours souriante et aime s'amuser.",
+      "personality": [
+        "Populaire",
+        "Mignonne",
+        "Musicienne",
+        "Artistique",
+        "Joyeuse"
+      ],
       "preferences": {
-        "favoriteFood": "Unknown",
-        "likesFood": [],
-        "favoriteItem": "Unknown",
-        "likesItems": []
+        "favoriteFood": "Fruit Salad",
+        "likesFood": [
+          "Spiral Lollipop"
+        ],
+        "favoriteItem": "Badminton Set",
+        "likesItems": [
+          "Violin",
+          "Rainbow Wig",
+          "Memetchi Balloons"
+        ]
+      },
+      "care": {
+        "careMistakes": 1,
+        "specialCondition": "Eat Donuts snack 3+ times",
+        "friendshipLevel": "Friendly",
+        "eggGroup": "Creative"
       },
       "evolution": {
-        "evolvesFrom": [],
-        "evolvesTo": [],
-        "rarity": "Uncommon"
+        "evolvesFrom": [
+          "Baby"
+        ],
+        "evolvesTo": [
+          "Meme Angel"
+        ],
+        "rarity": "Common"
       },
       "lifespan": {
-        "ageRange": "Unknown",
-        "cycleStage": "1"
+        "ageRange": "Adult",
+        "cycleStage": 4
       },
-      "firstAppearance": "Tamagotchi Pix",
+      "firstAppearance": "Tamagotchi m!x",
       "pixIntroduction": true,
-      "popularity": 50,
-      "traits": [],
-      "specialAbilities": [],
+      "popularity": 92,
+      "traits": [
+        "Musical",
+        "Artistic",
+        "Popular",
+        "Cheerful"
+      ],
+      "specialAbilities": [
+        "Music skills",
+        "Artistic talent"
+      ],
       "imageUrl": "https://static.wikia.nocookie.net/tamagotchi/images/f/f2/Memetchi.PNG"
     },
     {

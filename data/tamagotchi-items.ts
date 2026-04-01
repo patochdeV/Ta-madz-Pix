@@ -29,7 +29,7 @@ export const categories: Category[] = [
   { id: "special", name: "Spécial", icon: "star", iconFamily: "Ionicons", color: "#FFE66D", code: "96" },
 ];
 
-const BASE_QR = "http://mrblinky.net/tama/pix/download/qrcode";
+const BASE_QR = "https://mrblinky.net/tama/pix/download/qrcode";
 
 function makeItem(name: string, category: CategoryId, categoryCode: string, itemCode: string, spriteFile: string): TamaItem {
   return {
@@ -38,7 +38,7 @@ function makeItem(name: string, category: CategoryId, categoryCode: string, item
     category,
     categoryCode,
     itemCode,
-    spriteUrl: `http://mrblinky.net/tama/pix/download/${spriteFile}`,
+    spriteUrl: `https://mrblinky.net/tama/pix/download/${spriteFile}`,
     qrCodeUrl: `${BASE_QR}/tc-${categoryCode}-${itemCode}.png`,
   };
 }
