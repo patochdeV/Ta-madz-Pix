@@ -1,6 +1,7 @@
 # Tama Pix Codes
 
-Tama Pix Codes est une application mobile interactive inspirée de Tamagotchi, développée avec Expo et React Native. Découvrez et collectionnez des personnages virtuels, gérez vos favoris, explorez différentes catégories d'items, et plongez dans un univers virtuel amusant et engageant.
+Tama Pix Codes est une application mobile interactive inspirée pour Tamagotchi Pix . Découvrez et collectionnez des personnages virtuels, gérez vos favoris, explorez différentes catégories d'items, et plongez dans un univers virtuel amusant et engageant.
+
 
 ## Fonctionnalités
 
@@ -27,6 +28,10 @@ Tama Pix Codes est une application mobile interactive inspirée de Tamagotchi, d
    ```
    npm start
    ```
+
+## Téléchargements
+
+- **APK Android (v1.0.0)** : [Télécharger](https://github.com/patochdeV/Ta-madz-Pix/raw/tama-pix-codes-v1/releases/tama-pix-codes-v1.0.0.apk) (90.35 MB)
 
 ## Technologies utilisées
 
