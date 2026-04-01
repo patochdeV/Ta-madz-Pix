@@ -6,7 +6,6 @@ import {
   ScrollView,
   Pressable,
   Platform,
-  ActivityIndicator,
   useWindowDimensions,
 } from "react-native";
 import { useLocalSearchParams, router } from "expo-router";
@@ -114,7 +113,7 @@ export default function ItemDetailScreen() {
               <Text style={styles.stepNumText}>1</Text>
             </View>
             <Text style={styles.stepText}>
-              Sur votre Tamagotchi Pix, ouvrez le menu c\u0153ur
+              Sur votre Tamagotchi Pix, ouvrez le menu cœur
             </Text>
           </View>
           <View style={styles.stepRow}>
@@ -122,7 +121,7 @@ export default function ItemDetailScreen() {
               <Text style={styles.stepNumText}>2</Text>
             </View>
             <Text style={styles.stepText}>
-              Sélectionnez l'option « Download »
+              Sélectionnez l’option « Download »
             </Text>
           </View>
           <View style={styles.stepRow}>
