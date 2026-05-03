@@ -1,3 +1,5 @@
+import { embeddedQRCodes } from "./embedded-qr-codes";
+
 export type CategoryId = "meals" | "snacks" | "items" | "accessories" | "furniture" | "livings" | "special";
 
 export interface TamaItem {
@@ -32,14 +34,18 @@ export const categories: Category[] = [
 const BASE_QR = "https://mrblinky.net/tama/pix/download/qrcode";
 
 function makeItem(name: string, category: CategoryId, categoryCode: string, itemCode: string, spriteFile: string): TamaItem {
+  const itemId = `${categoryCode}-${itemCode}`;
+  // Utiliser le code QR embarqué si disponible, sinon fallback sur l'URL externe
+  const qrCodeUrl = embeddedQRCodes[itemId] || `${BASE_QR}/tc-${categoryCode}-${itemCode}.png`;
+  
   return {
-    id: `${categoryCode}-${itemCode}`,
+    id: itemId,
     name,
     category,
     categoryCode,
     itemCode,
     spriteUrl: `https://mrblinky.net/tama/pix/download/${spriteFile}`,
-    qrCodeUrl: `${BASE_QR}/tc-${categoryCode}-${itemCode}.png`,
+    qrCodeUrl,
   };
 }
 
