@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import {
   StyleSheet,
   Text,
@@ -24,7 +24,6 @@ export default function ItemDetailScreen() {
   const insets = useSafeAreaInsets();
   const { width } = useWindowDimensions();
   const webTopInset = Platform.OS === "web" ? 67 : 0;
-  const [qrLoadError, setQrLoadError] = useState(false);
 
   const item = allItems.find((i) => i.id === id);
   const { isFavorite, toggleFavorite } = useFavorites();
@@ -97,25 +96,12 @@ export default function ItemDetailScreen() {
             Scannez ce QR code avec votre Tamagotchi Pix
           </Text>
           <View style={styles.qrContainer}>
-            {!qrLoadError && item.qrCodeUrl ? (
-              <Image
-                source={{ uri: item.qrCodeUrl }}
-                style={[styles.qrImage, { width: qrSize, height: qrSize }]}
-                contentFit="contain"
-                transition={400}
-                onError={() => setQrLoadError(true)}
-              />
-            ) : (
-              <View style={[styles.qrError, { width: qrSize, height: qrSize }]}>
-                <Ionicons name="alert-circle" size={40} color={Colors.light.tint} />
-                <Text style={styles.errorText}>
-                  Code QR indisponible
-                </Text>
-                <Text style={styles.errorSubtext}>
-                  ID: tc-{item.categoryCode}-{item.itemCode}
-                </Text>
-              </View>
-            )}
+            <Image
+              source={{ uri: item.qrCodeUrl }}
+              style={{ width: qrSize, height: qrSize }}
+              contentFit="contain"
+              cachePolicy="disk"
+            />
           </View>
         </Animated.View>
 
@@ -225,32 +211,8 @@ const styles = StyleSheet.create({
     textAlign: "center",
   },
   qrContainer: {
-    backgroundColor: "#FFFFFF",
-    borderRadius: 16,
-    padding: 12,
     alignItems: "center",
     justifyContent: "center",
-  },
-  qrImage: {
-    borderRadius: 8,
-  },
-  qrError: {
-    borderRadius: 8,
-    backgroundColor: Colors.light.tint + "10",
-    alignItems: "center",
-    justifyContent: "center",
-    gap: 8,
-  },
-  errorText: {
-    fontSize: 14,
-    fontFamily: "Nunito_700Bold",
-    color: Colors.light.tint,
-    marginTop: 8,
-  },
-  errorSubtext: {
-    fontSize: 11,
-    fontFamily: "Nunito_400Regular",
-    color: Colors.light.textSecondary,
   },
   infoSection: {
     backgroundColor: Colors.light.surface,
